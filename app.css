@@ -10,12 +10,18 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 250px;
     cursor: pointer;
 }
 
 .container {
     margin-bottom: 50px;
+
+}
+.container p{
+    padding: 0 50px;
+    margin: 0 auto;
+    width: 350px;
 }
 
 .image-counter {
@@ -38,10 +44,35 @@ img {
     left: 110%;
 }
 
-/*.modal{*/
-    /*transform: translateX(-100%);*/
-/*}*/
 
 label{
     display: block;
+    margin-top: 10px;
+}
+
+.btn{
+    display: inline-block;
+    width: 50px;
+    margin: 10px auto;
+    padding: 10px;
+    color: red;
+    transition: background .12s ease,
+                border .12s ease;
+    border: 2px dashed rgba(233,233,233, .1);
+}
+
+.btn:hover{
+    background: seashell;
+}
+.btn:active{
+    border: 2px dashed rgba(33,33,33, .3);
+}
+
+.btnFormToggle{
+
+}
+form{
+    padding: 30px;
+    width: 300px;
+    margin: 0 auto;
 }
